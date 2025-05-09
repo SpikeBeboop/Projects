@@ -1,0 +1,87 @@
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner .wrapper>ul {
+    display: flex;
+    width: 300%;
+}
+
+.banner .circle {
+    position: absolute;
+    display: flex;
+    bottom: 17px;
+    right: 12px;
+}
+
+.banner .circle li {
+    width: 22px;
+    height: 22px;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner .circle li::after{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+}
+
+.banner .circle .active {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.banner .circle .active::after{
+    background-color: #fff;
+}
+
+.banner .subnav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.banner .subnav li {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 29px;
+}
+
+.banner .subnav li:hover {
+    background-color: var(--lv);
+}
+
+.banner .subnav li::after{
+    content: "\e687";
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fff;
+    font-family: iconfont;
+}
+
+.banner .subnav li a{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.banner .subnav li a:first-child{
+    font-size: 16px;
+    margin-right: 14px;
+}
