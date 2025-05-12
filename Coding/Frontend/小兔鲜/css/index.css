@@ -85,3 +85,320 @@
     font-size: 16px;
     margin-right: 14px;
 }
+
+/* 新鲜好物 */
+.hd {
+    display: flex;
+    justify-content: space-between;
+    height: 112px;
+    align-items: center;
+    padding: 40px 0 30px;
+}
+
+.hd h2 {
+    font-size: 30px;
+}
+
+.hd h2 span {
+    margin-left: 35px;
+    font-size: 16px;
+    color: var(--ga);
+}
+
+.hd .all {
+    font-size: 16px;
+    color: var(--ga);
+}
+
+.hd .all:hover {
+    color: var(--lv);
+}
+
+.hd .all span {
+    margin-left: 10px;
+}
+
+.bd ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd ul li {
+    width: 304px;
+    height: 404px;
+    background-color: #eef9f4;
+    transition: all .3s;
+}
+
+.bd ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .42);
+}
+
+.bd li a {
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+.bd li a img{
+    width: 304px;
+    height: 304px;
+    margin-bottom: 17.5px;
+}
+
+.bd li a h4{
+    font-size: 20px;
+}
+
+.bd li a p {
+    font-size: 22px;
+    color: #aa2113;
+    margin-top: 8.5px;
+}
+
+.bd li a p span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.recommend .bd ul li {
+    background-color: #fff;
+}
+
+.recommend .bd p {
+    font-size: 16px;
+    color: var(--ga);
+    margin-top: 15px;
+}
+
+.brand {
+    height: 468px;
+    background-color: #f5f5f5;
+}
+
+.btn {
+    margin-top: 48.5px;
+}
+
+.brand .btn a {
+        display: inline-block;
+    margin-left: 12px;
+        background-color: var(--lv);
+    width: 20px;
+    height: 20px;
+        line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.brand .btn .btnleft{
+    background-color: var(--ga);
+}
+
+.brand .bd li {
+    width: 244px;
+    height: 306px;
+}
+
+.brand .bd li:hover {
+    width: 244px;
+    height: 306px;
+}
+
+.brand .bd li a img {
+    width: 244px;
+    height: 306px; 
+}
+
+/* 生鲜模块 */
+.hd ul {
+    display: flex;
+    margin-right: 65px;
+}
+
+.fresh .hd h2 {
+    flex:1;
+}
+
+.hd ul li a {
+    margin-left: 6px;
+    padding: 0 7px;
+}
+
+.hd ul li a:hover {
+    color: #fff;
+    background-color: var(--lv);
+
+}
+
+.fresh .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .left {
+    width: 248px;
+    height: 610px;
+}
+
+.fresh .right {
+    width: 968px;
+    height: 610px;
+}
+
+.fresh .content ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fresh .content ul li {
+    position: relative;
+    overflow: hidden;
+    width: 242px;
+    height: 305px;
+    border: 2px solid transparent;
+    padding: 10px 0;
+}
+
+.fresh .content ul li:hover {
+    border: 2px solid var(--lv);
+}
+
+.fresh .content ul li a{
+    display: block;
+    width: 200px;
+    margin:0 auto;
+}
+
+
+.fresh .content .pic{
+    width: 200px;
+    height: 180px;
+}
+
+.fresh .content .info{
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 14.5px;
+}
+
+.fresh .content .info h5 {
+    font-size: 16px;
+}
+
+.fresh .content .price {
+    font-size: 16px;
+    color: #af2f22;
+    line-height: 31px;
+    margin-top: 7px;
+}
+
+.fresh .content .price span {
+    font-size: 22px;
+}
+
+.fresh .content .find {
+    position: absolute;
+    transition: all .3s;
+    width: 240px;
+    height: 84px;
+    left: 0;
+    bottom: -85px;
+    background-color: var(--lv);
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.fresh .content .right li:hover .find {
+    bottom: 0px;
+}
+
+.fresh .content .find h4{
+    margin: 0 auto;
+    font-size: 18px;
+    width: 120px;
+    border-bottom: rgba(255, 255, 255, 0.11) 2px solid;
+}
+
+.fresh .content .find a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.fresh .content .find .icon-arrow-right-bold {
+    font-size: 10px;
+}
+
+/* 最新专题 */
+.news {
+    margin-bottom: 50px;
+}
+
+.news ul li {
+    width: 405px;
+    height: 355px;
+    background-color: #fff;
+}
+
+.news li .pic {
+    position:relative;
+    width: 405px;
+    height: 288px;
+
+}
+
+.news .pic .txt {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0;
+    width: 405px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    background-image: linear-gradient(transparent, rgba(0,0,0, .6));
+}
+
+.news .left h4{
+    font-size: 20px;
+}
+
+.news .left p {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.news .right {
+    width: 79px;
+    height: 25px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-top: 15px;
+    color: #aa2113;
+    text-align: center;
+    line-height: 25px;
+}
+
+.news .right span{
+    font-size: 18px;
+}
+
+.news .desc {
+    display: flex;
+    justify-content: space-between;
+    line-height: 67px;
+    padding: 0 15px;
+}
+
+.news .desc p span {
+    font-size: 14px;
+    color: #666;
+}
+
+.news .desc .icon-browse {
+    margin-left: 20px;
+}

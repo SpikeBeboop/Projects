@@ -118,6 +118,10 @@
     position: relative;
 }
 
+.cart:hover{
+    color: var(--lv);
+}
+
 .cart i {
     display: block;
     font-size: 36px;
@@ -243,12 +247,12 @@
 }
 
 .copyright p {
-    color: #a1a1a1;
+    color: var(--ga);
     text-align: center;
 }
 
 .copyright p a {
-    color: #a1a1a1;
+    color: var(--ga);
     text-align: center;
 }
 

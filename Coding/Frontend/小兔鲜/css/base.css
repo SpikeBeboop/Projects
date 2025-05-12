@@ -53,3 +53,12 @@ h6 {
   font-weight: 400;
 }
 
+
+.text-overflow {
+    /* 1. 不允许文字换行 强制文字一行显示 */
+    white-space: nowrap;
+    /* 2. 溢出隐藏 */
+    overflow: hidden;
+    /* 3. 文字溢出用省略号代替 */
+    text-overflow: ellipsis;
+}
