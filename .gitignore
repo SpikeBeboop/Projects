@@ -1,3 +1,10 @@
 # Jetbrains
-.idea/
-__pycache__/
+.idea
+__pycache__
+
+#Visual Studio
+.vs
+*.vcxproj
+*.vcxproj.*
+x64
+x86
