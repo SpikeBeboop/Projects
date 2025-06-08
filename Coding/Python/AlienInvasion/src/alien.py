@@ -16,3 +16,6 @@ class Alien(Sprite):
         # 每个外星人最初都在屏幕左上角附近
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
+
+        #存储外星人的精确水平位置。
+        self.x = float(self.rect.x)

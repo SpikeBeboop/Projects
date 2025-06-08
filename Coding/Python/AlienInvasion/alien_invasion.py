@@ -1,10 +1,12 @@
 import sys
+from zoneinfo import available_timezones
 
 import pygame
 
 from src.settings import Settings
 from src.ship import Ship
 from src.bullet import Bullet
+from src.alien import Alien
 
 
 class AlienInvasion:
@@ -18,6 +20,8 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
         self.ship = Ship(self)
         self.bullets = pygame.sprite.Group()
+        self.aliens = pygame.sprite.Group()
+        self._create_fleet()
 
     def _check_events(self):
         # 监视键盘和鼠标事件
@@ -52,12 +56,27 @@ class AlienInvasion:
             new_bullet = Bullet(self)
             self.bullets.add(new_bullet)
 
+    def _create_fleet(self):
+        """创建外星人群"""
+        #创建一个外星人
+        alien = Alien(self)
+        alien_width = alien.rect.width
+        available_space_x = self.settings.screen_width-(2*alien_width)
+        number_aliens_x = available_space_x // (2*alien_width)
+        for alien_number in range(number_aliens_x):
+            alien = Alien(self)
+            alien.x = alien_width +2 * alien_width * alien_number
+            alien.rect.x = alien.x
+            self.aliens.add(alien)
+
     #更新屏幕
     def _update_screen(self):
         self.screen.fill(self.settings.bg_color)
         self.ship.blitme()
         for bullet in self.bullets.sprites():
             bullet.draw_bullet()
+        self.aliens.draw(self.screen)
+
         pygame.display.flip()
 
     def _update_bullets(self):
