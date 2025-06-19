@@ -1,0 +1,6 @@
+{
+    "paths": {
+        "data_dir": "data",
+        "log_dir": "logdir"
+    }
+}
