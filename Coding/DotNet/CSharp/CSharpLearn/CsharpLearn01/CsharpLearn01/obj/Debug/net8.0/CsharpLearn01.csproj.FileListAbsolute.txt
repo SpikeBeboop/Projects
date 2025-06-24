@@ -1,0 +1,15 @@
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\bin\Debug\net8.0\CsharpLearn01.exe
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\bin\Debug\net8.0\CsharpLearn01.deps.json
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\bin\Debug\net8.0\CsharpLearn01.runtimeconfig.json
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\bin\Debug\net8.0\CsharpLearn01.dll
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\bin\Debug\net8.0\CsharpLearn01.pdb
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.AssemblyInfoInputs.cache
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.AssemblyInfo.cs
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.csproj.CoreCompileInputs.cache
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.sourcelink.json
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.dll
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\refint\CsharpLearn01.dll
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.pdb
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\CsharpLearn01.genruntimeconfig.cache
+E:\Projects\Coding\DotNet\CSharp\CSharpLearn\CsharpLearn01\CsharpLearn01\obj\Debug\net8.0\ref\CsharpLearn01.dll
